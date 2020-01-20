@@ -23,7 +23,8 @@ class Repository {
       owner: Owner.fromJson(json['owner']),
       htmlUrl: json['html_url'],
       stargazersCount: json['stargazers_count'],
-      language: json['language'] == null ? "anonymous" : json['language'],
+      language: json['language'],
+      //language: json['language'] == null ? "anonymous" : json['language'],
     );
   }
 }

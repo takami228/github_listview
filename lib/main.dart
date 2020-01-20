@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:infinite_scroll/widgets/repository_list_view.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  ErrorWidget.builder = (FlutterErrorDetails details) => Container();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
