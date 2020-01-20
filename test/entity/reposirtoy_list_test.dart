@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:infinite_scroll/entity/repostory_list.dart';
+import 'package:github_listview/entity/repostory_list.dart';
 import "package:test/test.dart";
 
 void main() {

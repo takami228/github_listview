@@ -1,4 +1,4 @@
-package com.example.infinite_scroll
+package com.example.github_listview
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

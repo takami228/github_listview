@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:infinite_scroll/entity/repository.dart';
+import 'package:github_listview/entity/repository.dart';
 import "package:test/test.dart";
 
 void main() {

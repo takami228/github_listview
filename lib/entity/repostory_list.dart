@@ -1,4 +1,4 @@
-import 'package:infinite_scroll/entity/repository.dart';
+import 'package:github_listview/entity/repository.dart';
 
 class RepositoryList {
   final List<Repository> repositoryList;

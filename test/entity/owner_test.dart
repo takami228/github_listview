@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:infinite_scroll/entity/owner.dart';
+import 'package:github_listview/entity/owner.dart';
 import "package:test/test.dart";
 
 void main() {

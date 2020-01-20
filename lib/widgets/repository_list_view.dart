@@ -2,9 +2,9 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:github_listview/entity/repository.dart';
+import 'package:github_listview/entity/repostory_list.dart';
 import 'package:http/http.dart' as http;
-import 'package:infinite_scroll/entity/repository.dart';
-import 'package:infinite_scroll/entity/repostory_list.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class RepositoryListView extends StatefulWidget {

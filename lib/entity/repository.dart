@@ -1,4 +1,4 @@
-import 'package:infinite_scroll/entity/owner.dart';
+import 'package:github_listview/entity/owner.dart';
 
 class Repository {
   final String name;
