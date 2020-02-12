@@ -33,10 +33,13 @@ class RepositoryListViewState extends State<RepositoryListView> {
           return Text("${snapshot.error}");
         }
         return Center(
-            child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: <Widget>[CircularProgressIndicator()],
-        ));
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              CircularProgressIndicator(),
+            ],
+          ),
+        );
       },
     );
   }
@@ -56,6 +59,8 @@ Widget _buildItem(Repository repo) {
     contentPadding: EdgeInsets.all(10.0),
     title: Text(
       repo.fullName,
+      softWrap: true,
+      maxLines: 1,
       style: TextStyle(fontSize: 24.0),
     ),
     subtitle: Text(repo.language),
